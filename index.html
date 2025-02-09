@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Sonoro Vereda el Astillero</title>
+    <link rel="stylesheet" href="assets/Styles.css">
+<!-- Establecer el fondo directamente en el HTML usando CSS en línea -->
+</head>
+<body>
+
+    <div id="header">
+        <h1>Mapa Sonoro de la vereda El Astillero, San Antonio de Prado, en la ciudad Medellín</h1>
+        <p>Para acercarse mucho más al territorio es necesario comprender el paisaje, lo que implica escuchar y sumergirse en él, donde los sonidos también nos cuentan historias.</p>
+        <a href="https://www.canva.com/design/DAGZSSugfaI/hVPWSGGmwbA6Tm6gn5al6g/edit?utm_content=DAGZSSugfaI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">El paisaje Compartido</a>
+    </div>
+
+    <!-- Contenedor del mapa -->
+    <div id="map-container" style="position: relative; width: 1250px; height: 800px; background-image: url('assets/img/Mapa.jpg'); background-size: cover; background-position: center top; background-repeat: no-repeat;">
+        <!-- Marcadores y sonidos con imágenes personalizadas -->
+        <img src="assets/img/marcador10.png" class="marker" style="top: 175px; left: 700px;" onclick="playSound(1, 'assets/img/foto1.jpg', 175, 700)">
+        <img src="assets/img/marcador2.png" class="marker" style="top: 85px; left: 500px;" onclick="playSound(2, 'assets/img/foto2.jpg', 90, 500)">
+        <img src="assets/img/marcador12.png" class="marker" style="top: 340px; left: 350px;" onclick="playSound(3, 'assets/img/foto3.jpg', 340, 350)">
+        <img src="assets/img/marcador7.png" class="marker" style="top: 110px; left: 490px;" onclick="playSound(4, 'assets/img/foto4.jpg', 120, 510)">
+        <img src="assets/img/marcador6.png" class="marker" style="top: 430px; left: 750px;" onclick="playSound(5, 'assets/img/foto5.jpg', 430, 750)">
+        <img src="assets/img/marcador9.png" class="marker" style="top: 30px; left: 520px;" onclick="playSound(6, 'assets/img/foto6.jpg', 30, 520)">
+        <img src="assets/img/marcador11.png" class="marker" style="top: 200px; left: 650px;" onclick="playSound(7, 'assets/img/foto7.jpg', 200, 650)">
+        <img src="assets/img/marcador3.png" class="marker" style="top: 50px; left: 470px;" onclick="playSound(8, 'assets/img/foto8.jpg', 50, 470)">
+        <img src="assets/img/marcador8.png" class="marker" style="top: 400px; left: 340px;" onclick="playSound(9, 'assets/img/foto9.jpg', 400, 340)">
+        <img src="assets/img/marcador1.png" class="marker" style="top: 50px; left: 500px;" onclick="playSound(10, 'assets/img/foto10.jpg', 50, 500)">
+        <img src="assets/img/marcador5.png" class="marker" style="top: 250px; left: 720px;" onclick="playSound(11, 'assets/img/foto11.jpg', 250, 750)">
+        <img src="assets/img/marcador4.png" class="marker" style="top: 110px; left: 620px;" onclick="playSound(12, 'assets/img/foto12.jpg', 110, 620)">
+        <img src="assets/img/marcador13.png" class="marker" style="top: 680px; left: 790px;" onclick="playSound(13, 'assets/img/foto13.jpg', 570, 790)">
+    </div>
+
+    <!-- Archivos de audio -->
+    <audio id="audio1" src="assets/sounds/sonido1.mp3"></audio>
+    <audio id="audio2" src="assets/sounds/sonido2.mp3"></audio>
+    <audio id="audio3" src="assets/sounds/sonido3.mp3"></audio>
+    <audio id="audio4" src="assets/sounds/sonido4.mp3"></audio>
+    <audio id="audio5" src="assets/sounds/sonido5.mp3"></audio>
+    <audio id="audio6" src="assets/sounds/sonido6.mp3"></audio>
+    <audio id="audio7" src="assets/sounds/sonido7.mp3"></audio>
+    <audio id="audio8" src="assets/sounds/sonido8.mp3"></audio>
+    <audio id="audio9" src="assets/sounds/sonido9.mp3"></audio>
+    <audio id="audio10" src="assets/sounds/sonido10.mp3"></audio>
+    <audio id="audio11" src="assets/sounds/sonido11.mp3"></audio>
+    <audio id="audio12" src="assets/sounds/sonido12.mp3"></audio>
+    <audio id="audio13" src="assets/sounds/sonido13.mp3"></audio>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
